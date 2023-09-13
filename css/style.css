@@ -1,0 +1,392 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1, h2, h3, h4, h5, h6{
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* global css strat */
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-lg-12{
+    width: 100%;
+    float: left;
+}
+.col-lg-4{
+    width: 33.33%;
+    float: left;
+}
+.col-lg-6{
+    width: 50%;
+    float: left;
+}
+.text-right{
+    text-align: right;
+}
+/* global css end */
+
+/* header section start */
+
+.header-section{
+    width: 100%;
+
+}
+.header-section img, svg {
+    vertical-align: middle;
+    width: 28%;
+    border-radius: 57%;
+}
+
+.header-section{
+    background-color: antiquewhite;
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    margin-top: 16px;
+}
+
+.navbar-brand {
+    padding-top: var(--bs-navbar-brand-padding-y);
+    padding-bottom: var(--bs-navbar-brand-padding-y);
+    margin-right: var(--bs-navbar-brand-margin-end);
+    font-size: var(--bs-navbar-brand-font-size);
+    color: var(--bs-navbar-brand-color);
+    text-decoration: none;
+    white-space: nowrap;
+    margin-left: -46px;
+    padding-top: 13px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: var(--bs-navbar-nav-link-padding-x);
+    padding-left: var(--bs-navbar-nav-link-padding-x);
+    font-size: 20px;
+    font-weight: 900;
+    color: blue;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    margin-top: 8px;
+    margin-left: -45px
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    margin-right: -31px;
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    /* flex-wrap: inherit; */
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: rgb(245, 26, 26);
+    border-bottom: 1px solid #2dc8f7;
+   
+}
+
+/* header section end */
+
+/* banner section start */
+
+.banner{
+    width: 100%;
+    float: left;
+    background: url("../picture/banner.png");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inner-banner{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.inner-banner h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 150px;
+    color: #fff;
+}
+.inner-banner p {
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 50px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.divider {
+    width: 50%;
+    height: 2px;
+    margin: 45px auto;
+    background-color: #085eff;
+}
+.inner-banner .btn-info {
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #085eff;
+    border-radius: 13%;
+    transition: 1s;
+    font-weight: 700;
+}
+
+.inner-banner .btn-info:hover{
+    background-color: #085eff ;
+}
+
+
+.banner .arrow {
+    width: 100%;
+    float: left;
+    text-align: center;
+   padding: 120px 0px;
+}
+
+/* banner section end */
+
+/* <!-- simple section strat --> */
+.simple {
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+    background-color: #F6F9F9;
+    text-align: center;
+}
+
+.simple h1{
+    font-size: 45px;
+    font-weight: 900;
+}
+.simple p {
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 40px;
+    line-height: 30px;
+}
+/* <!-- simple section end --> */
+
+/* <!-- feater-section start --> */
+
+.feature-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+}
+.feature-section .inner-feature{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.feature-section .inner-feature img{
+    padding: 10px;
+}
+
+.feature-section .inner-feature h3 {
+    font-size: 20px;
+    line-height: 0px;
+    font-weight: 700;
+    color: #000;
+    margin: 30px;
+}
+.feature-section .inner-feature p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #706a6a;
+    margin: auto;
+    font-weight: 700;
+}
+/* <!-- feater-section end --> */
+
+/* porfolio section start */
+
+.portfolio{
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+    background-color: #F6F9F9;
+}
+
+.portfolio h1{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+.portfolio p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 37px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.inner-porfolio {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin: 10px;
+}
+
+.inner-porfolio .port-hover {
+    width: 104%;
+    height: 100%;
+    display: none;
+    transition: 5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(21, 164, 250, .6);
+}
+.inner-porfolio .port-hover .icons {
+    width: 100%;
+    position: absolute;
+    top: 87px;
+    left: 123px;
+}
+.inner-porfolio .port-hover .icons img{
+    margin-right: 3px;
+}
+
+.inner-porfolio:hover .port-hover{
+    display: block;
+}
+/* porfolio section end */
+
+/* <!-- contact section strat --> */
+
+.contact{
+    width: 100%;
+    float: left;
+    padding: 80px;
+    background: url(../picture/cbg.png);
+}
+
+.contact h1{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+}
+.contact p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 37px;
+    line-height: 15px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.contact-form{
+    width: 50%;
+    margin: 40px auto 0px;
+}
+.contact-form .form-group {
+    width: 100%;
+    float: left;
+    margin: 1px;
+}
+.contact-form .form-group .form-control{
+    width: 100% ;
+    padding: 15px;
+    background-color: transparent;
+    border: 2px solid #999999 ;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #999999;
+    text-transform: capitalize;
+}
+.contact-form .form-group span {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.btn-infu{
+    padding: 10px 35px;
+    border: 1px solid #15a4fa;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    background: transparent;
+    transition: 2s;
+}
+.btn-infu:hover {
+   border: 1px solid #15a4fa;
+   color: #fff;
+   background: #15a4fa;
+}
+/* <!-- contact section end --> */
+
+/* fotter css start */
+.footer{
+    width: 100%;
+    float: left;
+    padding: 10px 0px;
+}
+
+.footer p {
+    font-size: 20px;
+    margin-top: 26px;
+}
+ .social-icon{
+    width: 100%;
+    float: left;
+    text-align: right;
+}
+.social-icon li{
+    list-style: none;
+    display: inline-block;
+}
+
+.social-icon li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #36a7e9;
+    color: #041dfc;
+    font-size: 15px;
+    transition: 1s;
+    margin: 10px 8px;
+}
+.footer p {
+    font-size: 20px;
+    margin-top: 34px;
+}
+
+/* fotter css end */
+
+
+
+
+
+
+
